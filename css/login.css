@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Gotham Medium';
-  src: url("../fonts/GothamMedium.ttf") format('truetype');
+  src: url("https://kasimmohdh.github.io/B2CLogin/fonts/GothamMedium.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'Gotham Book';
-  src: url("../fonts/GothamBook.ttf") format('truetype');
+  src: url("https://kasimmohdh.github.io/B2CLogin/fonts/GothamBook.ttf") format('truetype');
 }
 
 .main-form {
@@ -14,7 +14,7 @@
 }
 
 .logo {
-    background-image: url(../images/logo.png);
+    background-image: url(https://kasimmohdh.github.io/B2CLogin/images/logo.png);
     background-repeat: no-repeat;
     height: 71px;
     background-position: 16px 17px;
@@ -62,7 +62,7 @@ html {
 }
 body {
   background-attachment: fixed;
-  background-image: url("../images/bg.jpg");
+  background-image: url("https://kasimmohdh.github.io/B2CLogin/images/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
