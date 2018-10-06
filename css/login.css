@@ -166,8 +166,7 @@ label[for=password]{
     top: 235px;
     width: 100%;
     display: block;
-    text-align: center; 
-	display: none;
+    text-align: center;
 }
 .forgot-password-custom {
 	margin-top: 40px;
