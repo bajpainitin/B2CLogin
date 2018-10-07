@@ -162,21 +162,28 @@ label[for=password]{
 } */
 
 #forgotPassword {
+	
+	font-family: 'Gotham Book';
+    font-size: 0px;
     position: relative;
-    top: 235px;
+    top: 257px;
     width: 100%;
-    display: block;
-    text-align: center;
+    display: flex;
+    text-align: center; 
+	margin-left: 282px;
+}
+
+#forgotPassword:after {
+	font-size: 12px;
+	content: 'Password';
 }
 .forgot-password-custom {
 	margin-top: 40px;
-    position: relative;
-    width: 100%;
-    display: block;
-    text-align: center;
 	font-family: 'Gotham Book';
     font-size: 12px;
 	color: grey;
+	display : flex;
+	margin-left: 156px;
 }
 
 .register-new-account {
@@ -215,7 +222,7 @@ label[for=password]{
 
 #MicrosoftAccountExchange {
   background-color: #28B1E6;
-  background-image: url("../images/microsoft.png");
+  background-image: url("https://kasimmohdh.github.io/B2CLogin/images/microsoft.png");
   background-repeat: no-repeat;
   background-size: 50px;
   padding-left: 55px;
@@ -228,7 +235,7 @@ label[for=password]{
 
 #TwitterExchange {
   background-color: #60A9DD;
-  background-image: url("../images/twitter.png");
+  background-image: url("https://kasimmohdh.github.io/B2CLogin/images/twitter.png");
   background-repeat: no-repeat;
   background-size: 50px;
   padding-left: 55px;
